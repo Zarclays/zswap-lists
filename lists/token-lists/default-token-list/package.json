@@ -1,11 +1,11 @@
 {
-  "name": "@sushiswap/default-token-list",
-  "version": "41.2.0",
-  "description": "◦ The SushiSwap default token list",
-  "main": "build/sushiswap-default.tokenlist.json",
+  "name": "@zarclays/zswap-default-token-list",
+  "version": "0.0.1",
+  "description": "◦ The ZSwap default token list",
+  "main": "build/zswap-default.tokenlist.json",
   "scripts": {
     "test": "mocha",
-    "build": "rimraf build && mkdir -p build && node internal/write.js > build/sushiswap-default.tokenlist.json",
+    "build": "rimraf build && mkdir -p build && node internal/write.js > build/zswap-default.tokenlist.json",
     "prepublishOnly": "pnpm test && pnpm run build",
     "sync": "node internal/sync.js",
     "volume": "ts-node ./internal/tokenVolumes.ts",
@@ -13,30 +13,30 @@
     "ci:publish": "pnpm publish --access public --tag latest"
   },
   "files": [
-    "build/sushiswap-default.tokenlist.json"
+    "build/zswap-default.tokenlist.json"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sushiswap/list.git",
+    "url": "git+https://github.com/Zarclays/zswap-lists.git",
     "directory": "lists/token-lists/default-token-list"
   },
   "keywords": [
-    "sushiswap",
+    "zswap",
     "default",
     "token",
     "list"
   ],
-  "author": "Matthew Lilley <hello@matthewlilley.com>",
+  "author": "ZSwap",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/sushiswap/default-token-list/issues"
+    "url": "https://github.com/Zarclays/zswap-lists/default-token-list/issues"
   },
-  "homepage": "https://github.com/sushiswap/default-token-list#readme",
+  "homepage": "https://github.com/Zarclays/zswap-lists/default-token-list#readme",
   "devDependencies": {
     "@ethersproject/address": "^5.0.2",
     "@ethersproject/solidity": "^5.3.0",
     "@octokit/rest": "^18.6.2",
-    "@sushiswap/core-sdk": "^1.0.0-canary.134",
+    "@zarclays/zswap-core-sdk": "0.0.1-canary.1",
     "@uniswap/token-lists": "1.0.0-beta.30",
     "ajv": "^6.12.3",
     "chai": "^4.2.0",

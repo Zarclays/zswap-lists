@@ -1,12 +1,12 @@
 const { version } = require("../package.json");
 
-const { ChainId } = require("@sushiswap/core-sdk");
+const { ChainId } = require("@zarclays/zswap-core-sdk");
 
 const fs = require("fs");
 
 const { resolve } = require("path");
 
-const DEFAULT_TOKEN_LIST = require("@sushiswap/default-token-list");
+const DEFAULT_TOKEN_LIST = require("@zarclays/zswap-default-token-list");
 
 const SUPPORTED_CHAINS = {
   [ChainId.ETHEREUM]: "ethereum",
@@ -50,7 +50,7 @@ function getPairs() {
 module.exports = function () {
   const parsed = version.split(".");
   return {
-    name: "SushiSwap Pair Menu",
+    name: "ZSwap Pair Menu",
     timestamp: new Date().toISOString(),
     version: {
       major: +parsed[0],
@@ -60,7 +60,7 @@ module.exports = function () {
     tags: {},
     logoURI:
       "https://raw.githubusercontent.com/sushiswap/art/master/sushi/logo-256x256.png",
-    keywords: ["sushiswap", "limit-order", "pairs"],
+    keywords: ["zswap", "limit-order", "pairs"],
     pairs: getPairs(),
   };
 };

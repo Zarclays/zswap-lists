@@ -1,6 +1,6 @@
 const { Command } = require("commander");
 const { exec } = require("child_process");
-const { ChainId } = require("@sushiswap/core-sdk");
+const { ChainId } = require("@zarclays/zswap-core-sdk");
 const { resolve } = require("path");
 const { getAddress } = require("@ethersproject/address");
 const fs = require("fs");

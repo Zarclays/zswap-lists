@@ -1,5 +1,5 @@
 import { request, gql } from "graphql-request";
-import { ChainId } from "@sushiswap/core-sdk";
+import { ChainId } from "@zarclays/zswap-core-sdk";
 import XLSX from "xlsx";
 import { readFileSync } from "fs";
 

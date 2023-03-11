@@ -1,31 +1,31 @@
 {
-  "name": "@sushiswap/chainlink-token-list",
-  "version": "0.1.0",
-  "description": "◦ The SushiSwap Chainlink token list",
-  "main": "dist/sushiswap-chainlink.tokenlist.json",
+  "name": "@zarclays/zswap-chainlink-token-list",
+  "version": "0.0.1",
+  "description": "◦ ZSwap Chainlink token list",
+  "main": "dist/zswap-chainlink.tokenlist.json",
   "scripts": {
     "test": "mocha",
-    "build": "rimraf build && mkdir -p dist && node internal/write.js > dist/sushiswap-chainlink.tokenlist.json",
+    "build": "rimraf build && mkdir -p dist && node internal/write.js > dist/zswap-chainlink.tokenlist.json",
     "prepublishOnly": "npm test && npm run build"
   },
   "files": [
-    "dist/sushiswap-chainlink.tokenlist.json"
+    "dist/zswap-chainlink.tokenlist.json"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sushiswap/chainlink-token-list.git"
+    "url": "git+https://github.com/Zarclays/zswap-lists/chainlink-token-list.git"
   },
   "keywords": [
-    "sushiswap",
+    "zswap",
     "chainlink",
     "token list"
   ],
-  "author": "Matthew Lilley <hello@matthewlilley.com>",
+  "author": "ZSwap",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/sushiswap/chainlink-token-list/issues"
+    "url": "https://github.com/zarclays/chainlink-token-list/issues"
   },
-  "homepage": "https://github.com/sushiswap/chainlink-token-list#readme",
+  "homepage": "https://github.com/zarclays/chainlink-token-list#readme",
   "devDependencies": {
     "@ethersproject/address": "^5.0.2",
     "@uniswap/token-lists": "^1.0.0-beta.19",

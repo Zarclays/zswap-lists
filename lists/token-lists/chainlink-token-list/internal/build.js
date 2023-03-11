@@ -15,7 +15,7 @@ module.exports = function () {
     tags: {},
     logoURI:
       "https://raw.githubusercontent.com/sushiswap/art/master/sushi/logo-256x256.png",
-    keywords: ["sushiswap", "chainlink", "tokenlist"],
+    keywords: ["zswap", "chainlink", "tokenlist"],
     tokens: sortTokens([...require("../tokens/ethereum.json")]),
   };
 };

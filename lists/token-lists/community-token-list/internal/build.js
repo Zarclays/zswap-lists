@@ -4,7 +4,7 @@ const { sortTokens } = require("builder");
 module.exports = function () {
   const parsed = version.split(".");
   return {
-    name: "Sushi Community List",
+    name: "ZSwap Community List",
     timestamp: new Date().toISOString(),
     version: {
       major: +parsed[0],
@@ -14,7 +14,7 @@ module.exports = function () {
     tags: {},
     logoURI:
       "https://raw.githubusercontent.com/sushiswap/art/master/sushi/logo-256x256.png",
-    keywords: ["sushiswap", "default"],
+    keywords: ["zswap", "default"],
     tokens: sortTokens([...require("../tokens/ethereum.json")]),
   };
 };

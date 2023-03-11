@@ -1,6 +1,6 @@
 {
-  "name": "@sushiswap/limit-order-pair-list",
-  "version": "0.2.17",
+  "name": "@zarclays/zswap-limit-order-pair-list",
+  "version": "0.0.1",
   "description": "Token list for limit order pairs",
   "main": "dist/limit-order.pairlist.json",
   "scripts": {
@@ -11,7 +11,7 @@
   "files": [
     "dist/limit-order.pairlist.json"
   ],
-  "author": "Gašper Brvar",
+  "author": "ZSwap",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/sushiswap/lists/issues"
@@ -20,8 +20,8 @@
   "devDependencies": {
     "@ethersproject/address": "^5.0.2",
     "@ethersproject/solidity": "^5.3.0",
-    "@sushiswap/core-sdk": "^1.0.0-canary.56",
-    "@sushiswap/default-token-list": "workspace:*",
+    "@zarclays/zswap-core-sdk": "^0.0.1-canary.1",
+    "@zarclays/zswap-default-token-list": "workspace:*",
     "chai": "^4.3.4",
     "mocha": "^9.0.1",
     "rimraf": "^3.0.2"

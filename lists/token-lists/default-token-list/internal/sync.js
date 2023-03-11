@@ -4,7 +4,7 @@ const { Octokit } = require("@octokit/rest");
 
 const octokit = new Octokit();
 
-const { ChainId } = require("@sushiswap/core-sdk");
+const { ChainId } = require("@zarclays/zswap-core-sdk");
 
 const fs = require("fs");
 
