@@ -5,7 +5,7 @@
   "main": "build/zswap-default.tokenlist.json",
   "scripts": {
     "test": "mocha",
-    "build": "rimraf build && if not exists build mkdir build && node internal/write.js > build/zswap-default.tokenlist.json",
+    "build": "rimraf build && mkdir build && node internal/write.js > build/zswap-default.tokenlist.json",
     "build-linux": "rimraf build && mkdir -p build && node internal/write.js > build/zswap-default.tokenlist.json",
     "prepublishOnly": "pnpm test && pnpm run build",
     "sync": "node internal/sync.js",
@@ -27,6 +27,10 @@
     "token",
     "list"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "author": "ZSwap",
   "license": "GPL-3.0-or-later",
   "bugs": {

@@ -20,6 +20,10 @@
     "chainlink",
     "token list"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "author": "ZSwap",
   "license": "GPL-3.0-or-later",
   "bugs": {

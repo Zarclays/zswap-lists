@@ -21,6 +21,10 @@
     "token",
     "list"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "author": "Matthew Lilley <hello@matthewlilley.com>",
   "license": "GPL-3.0-or-later",
   "bugs": {

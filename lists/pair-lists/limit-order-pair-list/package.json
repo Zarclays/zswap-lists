@@ -17,6 +17,10 @@
     "url": "https://github.com/sushiswap/lists/issues"
   },
   "homepage": "https://github.com/sushiswap/lists#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "devDependencies": {
     "@ethersproject/address": "^5.0.2",
     "@ethersproject/solidity": "^5.3.0",
