@@ -1,4 +1,4 @@
-# SushiSwap Logo
+# ZSwap Logo
 
 ## Requirements
 

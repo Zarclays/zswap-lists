@@ -1,5 +1,5 @@
 ---
-"@sushiswap/default-token-list": minor
+"@zarclays/zswap-default-token-list": minor
 ---
 
 Remove duplicate Token

@@ -137,9 +137,9 @@ importers:
   logos/token-logos:
     specifiers:
       '@ethersproject/address': ^5.5.0
-      '@sushiswap/core-sdk': ^1.0.0-canary.22
       '@types/jest': ^27.0.1
       '@types/node': ^17.0.21
+      '@zarclays/zswap-core-sdk': 0.0.1-canary.1
       cloudinary: ^1.32.0
       commander: ^8.3.0
       image-size: ^1.0.0
@@ -148,9 +148,9 @@ importers:
       typescript: ^4.4.3
     devDependencies:
       '@ethersproject/address': 5.6.0
-      '@sushiswap/core-sdk': 1.0.0-canary.89
       '@types/jest': 27.4.1
       '@types/node': 17.0.21
+      '@zarclays/zswap-core-sdk': 0.0.1-canary.1
       cloudinary: 1.32.0
       commander: 8.3.0
       image-size: 1.0.1
@@ -1324,24 +1324,6 @@ packages:
     resolution: {integrity: sha512-OAPJUAtgeINhh/TAlUID4QTs53Njm7xzddaVlEs/SXwgtiD1tW22zAB/W1wdqfrpmikgaWQ9Fw6Ws+hsiRm5Vg==}
     dependencies:
       '@sinonjs/commons': 1.8.3
-    dev: true
-
-  /@sushiswap/core-sdk/1.0.0-canary.89:
-    resolution: {integrity: sha512-kqr9xCyyL/aSBtraB2YnHx2VFPwzXDDgHjgongTUJV8g0lER79szWhI1G39CIYQMm2XhAvEyH7WkEf4hDlltsw==}
-    dependencies:
-      '@ethersproject/address': 5.6.0
-      '@ethersproject/bignumber': 5.6.0
-      '@ethersproject/providers': 5.6.1
-      '@ethersproject/solidity': 5.6.0
-      big.js: 6.1.1
-      decimal.js-light: 2.5.1
-      jsbi: 4.2.0
-      tiny-invariant: 1.2.0
-      tiny-warning: 1.0.3
-      toformat: 2.0.0
-    transitivePeerDependencies:
-      - bufferutil
-      - utf-8-validate
     dev: true
 
   /@sushiswap/prettier-config/0.1.0_prettier@2.6.2:
