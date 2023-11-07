@@ -14,9 +14,9 @@
   "author": "ZSwap",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/sushiswap/lists/issues"
+    "url": "https://github.com/Zarclays/zswap-lists/issues"
   },
-  "homepage": "https://github.com/sushiswap/lists#readme",
+  "homepage": "https://github.com/Zarclays/zswap-lists#readme",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"

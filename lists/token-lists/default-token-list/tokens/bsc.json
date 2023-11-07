@@ -1,4 +1,13 @@
 [
+  
+  {
+    "address": "0x43d911c239e9170424E97B9166B43c7f9cdDb08E",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/zarclays/zswap-lists/master/logos/token-logos/token/pbtg.png",
+    "name": "Permabot Gold",
+    "symbol": "PBTG"
+  },
   {
     "address": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
     "chainId": 56,
@@ -15,14 +24,7 @@
     "name": "AlphaToken",
     "symbol": "ALPHA"
   },
-  {
-    "address": "0xf307910A4c7bbc79691fD374889b36d8531B08e3",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/ankr.jpg",
-    "name": "Ankr",
-    "symbol": "ANKR"
-  },
+  
   {
     "address": "0x80D5f92C2c8C682070C95495313dDB680B267320",
     "chainId": 56,
@@ -39,14 +41,7 @@
     "name": "Atletico de Madrid",
     "symbol": "ATM"
   },
-  {
-    "address": "0x0Eb3a705fc54725037CC9e008bDede697f62F335",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://bscscan.com/token/images/cosmos_32.png",
-    "name": "Cosmos Token",
-    "symbol": "ATOM"
-  },
+  
   {
     "address": "0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5",
     "chainId": 56,
@@ -55,14 +50,7 @@
     "name": "Bakery Token",
     "symbol": "BAKE"
   },
-  {
-    "address": "0x72fAa679E1008Ad8382959FF48E392042A8b06f7",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/12392/small/alliance_block_logo.jpg?1599546617g",
-    "name": "AllianceBlock",
-    "symbol": "bALBT"
-  },
+ 
   {
     "address": "0xAD6cAEb32CD2c308980a548bD0Bc5AA4306c6c18",
     "chainId": 56,
@@ -72,44 +60,12 @@
     "symbol": "BAND"
   },
   {
-    "address": "0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/bch.jpg",
-    "name": "Bitcoin Cash Token",
-    "symbol": "BCH"
-  },
-  {
     "address": "0xCa3F508B8e4Dd382eE878A314789373D80A5190A",
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/12704/small/token.png?1601876182",
     "name": "Beefy.finance",
     "symbol": "BIFI"
-  },
-  {
-    "address": "0x63870A18B6e42b01Ef1Ad8A2302ef50B7132054F",
-    "chainId": 56,
-    "decimals": 6,
-    "logoURI": "https://bscscan.com/token/images/blink_32.png",
-    "name": "BLINk",
-    "symbol": "BLK"
-  },
-  {
-    "address": "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/bsc/0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B.jpg",
-    "name": "BOB",
-    "symbol": "BOB"
-  },
-  {
-    "address": "0xE64F5Cb844946C1F102Bd25bBD87a5aB4aE89Fbe",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/8791/small/Group_11.png?1580344629",
-    "name": "ROOBEE",
-    "symbol": "bROOBEE"
   },
   {
     "address": "0x5Ac52EE5b2a633895292Ff6d8A89bB9190451587",
@@ -543,6 +499,7 @@
     "name": "Paris Saint-Germain",
     "symbol": "PSG"
   },
+  
   {
     "address": "0xb8C540d00dd0Bf76ea12E4B4B95eFC90804f924E",
     "chainId": 56,

@@ -4,7 +4,7 @@ const { sortTokens } = require("builder");
 module.exports = function () {
   const parsed = version.split(".");
   return {
-    name: "SushiSwap Testnet",
+    name: "ZSwap Testnet",
     timestamp: new Date().toISOString(),
     version: {
       major: +parsed[0],
