@@ -1,0 +1,36 @@
+[
+  
+  {
+    "address": "0xF194afDf50B03e69Bd7D057c1Aa9e10c9954E4C9",
+    "chainId": 44787,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/celo.jpg",
+    "name": "Celo Native Asset",
+    "symbol": "CELO"
+  },
+  {
+    "address": "0x10c892a6ec43a53e45d0b916b4b7d383b1b78c0f",
+    "chainId": 44787,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/ceur.jpg",
+    "name": "Celo Euro",
+    "symbol": "cEUR"
+  },  
+  {
+    "address": "0xE4D517785D091D3c54818832dB6094bcc2744545",
+    "chainId": 44787,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/ceur.jpg",
+    "name": "Celo Real",
+    "symbol": "cREAL"
+  },
+
+  {
+    "address": "0x874069Fa1Eb16D44d622F2e0Ca25eeA172369bC1",
+    "chainId": 44787,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/cusd.jpg",
+    "name": "Celo Dollar",
+    "symbol": "cUSD"
+  }
+]

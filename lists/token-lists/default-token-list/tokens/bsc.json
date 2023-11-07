@@ -4,7 +4,7 @@
     "address": "0x43d911c239e9170424E97B9166B43c7f9cdDb08E",
     "chainId": 56,
     "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/zarclays/zswap-lists/master/logos/token-logos/token/pbtg.png",
+    "logoURI": "https://github.com/Zarclays/zswap-lists/blob/master/logos/token-logos/network/bsc/0x43d911c239e9170424E97B9166B43c7f9cdDb08E.jpg?raw=true",
     "name": "Permabot Gold",
     "symbol": "PBTG"
   },
@@ -661,14 +661,6 @@
     "symbol": "UST"
   },
   {
-    "address": "0x4BD17003473389A42DAF6a0a729f6Fdb328BbBd7",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/13861/small/VAI_logo.png?1612413571",
-    "name": "VAI Stablecoin",
-    "symbol": "VAI"
-  },
-  {
     "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
     "chainId": 56,
     "decimals": 18,
@@ -677,83 +669,11 @@
     "symbol": "WBNB"
   },
   {
-    "address": "0x988c11625472340b7B36FF1534893780E0d8d841",
-    "chainId": 56,
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/smartchain/assets/0x988c11625472340b7B36FF1534893780E0d8d841/logo.png",
-    "name": "WrappedConceal",
-    "symbol": "wCCX"
-  },
-  {
-    "address": "0xd8A31016cD7da048ca21FFE04256C6d08C3A2251",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/15626/small/wenlambo.jpg?1621351104",
-    "name": "WenLambo",
-    "symbol": "WENLAMBO"
-  },
-  {
-    "address": "0x4DA996C5Fe84755C80e108cf96Fe705174c5e36A",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x3405A1bd46B85c5C029483FbECf2F3E611026e45/logo.png",
-    "name": "WOWSwap",
-    "symbol": "WOW"
-  },
-  {
-    "address": "0x541E619858737031A1244A5d0Cd47E5ef480342c",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/13840/small/V9gQH1KZ_400x400.jpg?1612251776",
-    "name": "Soteria",
-    "symbol": "wSOTE"
-  },
-  {
-    "address": "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/xrp.jpg",
-    "name": "XRP Token",
-    "symbol": "XRP"
-  },
-  {
-    "address": "0x16939ef78684453bfDFb47825F8a5F714f12623a",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/xtz.jpg",
-    "name": "Tezos Token",
-    "symbol": "XTZ"
-  },
-  {
-    "address": "0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/xvs.jpg",
-    "name": "Venus",
-    "symbol": "XVS"
-  },
-  {
-    "address": "0x88f1A5ae2A3BF98AEAF342D26B30a79438c9142e",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/yfi.jpg",
-    "name": "yearn.finance",
-    "symbol": "YFI"
-  },
-  {
     "address": "0x7F70642d88cf1C4a3a7abb072B53B929b653edA5",
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/yfii.jpg",
     "name": "YFII.finance Token",
     "symbol": "YFII"
-  },
-  {
-    "address": "0x1Ba42e5193dfA8B03D15dd1B86a3113bbBEF8Eeb",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/zec.jpg",
-    "name": "Zcash Token",
-    "symbol": "ZEC"
   }
 ]

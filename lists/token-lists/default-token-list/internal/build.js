@@ -23,6 +23,7 @@ const okex = require("../tokens/okex.json");
 const okexTestnet = require("../tokens/okex-testnet.json");
 const arbitrum = require("../tokens/arbitrum.json");
 const celo = require("../tokens/celo.json");
+const alfajores = require("../tokens/alfajores.json");
 const palm = require("../tokens/palm.json");
 const moonriver = require("../tokens/moonriver.json");
 const fuse = require("../tokens/fuse.json");
@@ -73,6 +74,7 @@ module.exports = function buildList() {
       ...okex,
       ...okexTestnet,
       ...arbitrum,
+      ...alfajores,
       ...celo,
       ...palm,
       ...moonriver,

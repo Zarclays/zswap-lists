@@ -86,6 +86,14 @@
     "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/cusd.jpg",
     "name": "Celo Dollar",
     "symbol": "cUSD"
+  },  
+  {
+    "address": "0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787",
+    "chainId": 42220,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/ceur.jpg",
+    "name": "Celo Real",
+    "symbol": "cREAL"
   },
   {
     "address": "0x832F03bCeE999a577cb592948983E35C048B5Aa4",

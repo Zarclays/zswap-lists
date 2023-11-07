@@ -1,6 +1,7 @@
 const { Command } = require("commander");
 const { exec } = require("child_process");
 const { ChainId } = require("@zarclays/zswap-core-sdk");
+// import {ChainId} from "@zarclays/zswap-core-sdk";
 const { resolve } = require("path");
 const { getAddress } = require("@ethersproject/address");
 const fs = require("fs");
@@ -12,6 +13,7 @@ const NAME_TO_CHAIN_ID = {
   avalanche: ChainId.AVALANCHE,
   fuji: ChainId.AVALANCHE_TESTNET,
   binance: ChainId.BSC,
+  alfajores: ChainId.ALFAJORES, // 44787,
   celo: ChainId.CELO,
   ethereum: ChainId.ETHEREUM,
   ropsten: [ChainId.ROPSTEN],
@@ -30,12 +32,15 @@ const NAME_TO_CHAIN_ID = {
   xdai: ChainId.XDAI,
 };
 
+
+
 const CHAIN_ID_TO_NAME = {
   [ChainId.ARBITRUM]: "arbitrum",
   [ChainId.AVALANCHE]: "avalanche",
   [ChainId.AVALANCHE_TESTNET]: "fuji",
   [ChainId.BSC]: "binance",
   [ChainId.CELO]: "celo",
+  [44787]: "alfajores",
   [ChainId.ETHEREUM]: "ethereum",
   [ChainId.ROPSTEN]: "ropsten",
   [ChainId.RINKEBY]: "rinkeby",

@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@types/node": "^17.0.21",
-    "@zarclays/zswap-core-sdk": "0.0.1-canary.1",
+    "@zarclays/zswap-core-sdk": "0.1.3",
     "@ethersproject/address": "^5.5.0",
     "cloudinary": "^1.32.0",
     "@types/jest": "^27.0.1",
