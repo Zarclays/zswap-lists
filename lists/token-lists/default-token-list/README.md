@@ -1,4 +1,4 @@
-# `@sushiswap/default-token-list`
+# `@zarclays/zswap-default-token-list`
 
 ...
 

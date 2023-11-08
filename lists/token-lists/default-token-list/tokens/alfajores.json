@@ -1,5 +1,12 @@
 [
-  
+  {
+    "address": "0x3C931aA2d16Ddec925A39E9Da9F6b84bFe917547",
+    "chainId": 44787,
+    "decimals": 18,
+    "logoURI": "https://github.com/Zarclays/zswap-lists/blob/master/logos/token-logos/token/zwap.jpg?raw=true",
+    "name": "ZSwap",
+    "symbol": "zSwap"
+  },
   {
     "address": "0xF194afDf50B03e69Bd7D057c1Aa9e10c9954E4C9",
     "chainId": 44787,

@@ -2,6 +2,10 @@
 
 Lists repository
 
+
+# Build
+`pnpm build`
+
 ## Oracle Lists
 
 Oracle lists...
@@ -10,13 +14,7 @@ Oracle lists...
 
 ...
 
-### Chainlink Oracle List
 
-..
-
-### DIA Oracle List
-
-..
 
 ## Token Lists
 

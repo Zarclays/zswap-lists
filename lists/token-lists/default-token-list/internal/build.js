@@ -49,7 +49,7 @@ module.exports = function buildList() {
     },
     tags: {},
     logoURI:
-      "https://raw.githubusercontent.com/sushiswap/art/master/sushi/logo-256x256.png",
+      "https://github.com/Zarclays/zswap-lists/blob/master/logos/token-logos/token/zwap.jpg?raw=true",
     keywords: ["zswap", "default"],
     tokens: sortTokens([
       ...ethereum,
