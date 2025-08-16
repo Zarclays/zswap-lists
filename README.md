@@ -3,8 +3,19 @@
 Lists repository
 
 
+
+
 # Build
 `pnpm build`
+
+
+
+# Publish
+## Version
+`pnpm run version`
+
+## Publish
+`pnpm -r publish --no-git-checks`
 
 ## Oracle Lists
 

@@ -1,3 +1,3 @@
-# `@sushiswap/testnet-token-list`
+# `@zarclays/zswap-testnet-token-list`
 
 ...

@@ -9,9 +9,9 @@ const { resolve } = require("path");
 const DEFAULT_TOKEN_LIST = require("@zarclays/zswap-default-token-list");
 
 const SUPPORTED_CHAINS = {
-  [ChainId.ETHEREUM]: "ethereum",
-  [ChainId.MATIC]: "matic",
-  [ChainId.AVALANCHE]: "avalanche",
+  // [ChainId.ETHEREUM]: "ethereum",
+  // [ChainId.MATIC]: "matic",
+  // [ChainId.AVALANCHE]: "avalanche",
   [ChainId.FANTOM]: "fantom",
 };
 

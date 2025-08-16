@@ -1,6 +1,6 @@
 {
   "name": "@zarclays/zswap-chainlink-token-list",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "◦ ZSwap Chainlink token list",
   "main": "dist/zswap-chainlink.tokenlist.json",
   "scripts": {

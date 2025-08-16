@@ -1,3 +1,3 @@
-# `@sushiswap/community-token-list`
+# `@zarclays/zswap-community-token-list`
 
 ...

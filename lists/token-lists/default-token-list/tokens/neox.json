@@ -1,0 +1,18 @@
+[
+  {
+    "address": "0x3e5E77bC7b2092fD0a9Cf9F6cbeB8198d659362d",
+    "chainId": 47763,
+    "decimals": 18,
+    "logoURI": "https://github.com/Zarclays/zswap-lists/blob/master/logos/token-logos/token/xbnb.jpg?raw=true",
+    "name": "Neo X BNB",
+    "symbol": "xBNB"
+  },
+  {
+      "address": "0x0787a92172eec13C27708001A9c361B44F3a2c69",
+      "chainId": 47763,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/meterio/token-list/master/data/ETH/logo.png",
+      "name": "Wrapped GAS",
+      "symbol": "WGAS"
+  }
+]

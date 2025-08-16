@@ -1,0 +1,26 @@
+[
+  {
+    "address": "0x3C931aA2d16Ddec925A39E9Da9F6b84bFe917547",
+    "chainId": 1116,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/core/token-list/master/data/wcore/logo.png",
+    "name": "Wrapped Core",
+    "symbol": "wCore"
+  },
+  {
+      "address": "0x900101d06A7426441Ae63e9AB3B9b0F63Be145F1",
+      "chainId": 1116,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/usdt.jpg",
+      "name": "Tether USD",
+      "symbol": "USDT"
+  },
+  {
+      "address": "0x000000000e1d682cc39abe9b32285fdea1255374",
+      "chainId": 1116,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/zswap/list/master/logos/token-logos/token/cid.jpg",
+      "name": "Core ID Token",
+      "symbol": "CID"
+  }
+]

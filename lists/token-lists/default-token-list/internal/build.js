@@ -1,42 +1,29 @@
 const { version } = require("../package.json");
 const { sortTokens } = require("builder");
-const ethereum = require("../tokens/ethereum.json");
-const ropsten = require("../tokens/ropsten.json");
-const rinkeby = require("../tokens/rinkeby.json");
-const goerli = require("../tokens/goerli.json");
-const kovan = require("../tokens/kovan.json");
-const fantom = require("../tokens/fantom.json");
-const fantomTestnet = require("../tokens/fantom-testnet.json");
-const polygon = require("../tokens/polygon.json");
-const polygonTestnet = require("../tokens/polygon-testnet.json");
-const xdai = require("../tokens/xdai.json");
-const bsc = require("../tokens/bsc.json");
-const bscTestnet = require("../tokens/bsc-testnet.json");
-const moonbase = require("../tokens/moonbase.json");
-const avalanche = require("../tokens/avalanche.json");
-const fuji = require("../tokens/fuji.json");
-const heco = require("../tokens/heco.json");
-const hecoTestnet = require("../tokens/heco-testnet.json");
-const harmony = require("../tokens/harmony.json");
-const harmonyTestnet = require("../tokens/harmony-testnet.json");
-const okex = require("../tokens/okex.json");
-const okexTestnet = require("../tokens/okex-testnet.json");
-const arbitrum = require("../tokens/arbitrum.json");
-const celo = require("../tokens/celo.json");
-const alfajores = require("../tokens/alfajores.json");
-const palm = require("../tokens/palm.json");
-const moonriver = require("../tokens/moonriver.json");
-const fuse = require("../tokens/fuse.json");
-const telos = require("../tokens/telos.json");
-const moonbeam = require("../tokens/moonbeam.json");
-const optimism = require("../tokens/optimism.json");
-const kava = require("../tokens/kava.json");
-const metis = require("../tokens/metis.json");
-const arbitrumNova = require("../tokens/arbitrum-nova.json");
-const bobaAvax = require("../tokens/boba-avax.json");
-const boba = require("../tokens/boba.json");
-const bttc = require("../tokens/bttc.json");
-const bobaBnb = require("../tokens/boba-bnb.json");
+
+const fs = require('fs');
+const path = require('path');
+
+// Get all JSON files from the tokens directory
+const tokenFiles = fs.readdirSync(path.join(__dirname, '../tokens'))
+  .filter(file => file.endsWith('.json') && file !== 'tokens.json');
+
+// Dynamically require all token files
+const tokenData = tokenFiles.reduce((acc, file) => {
+  const chainName = file.replace('.json', '');
+  acc[chainName] = require(`../tokens/${file}`);
+  return acc;
+}, {});
+
+// Get the list of all chains
+const chains = tokenFiles.map(file => file.replace('.json', ''));
+
+// Generate the tokens object with all chains
+const tokens = chains.reduce((acc, chain) => {
+  acc[chain] = tokenData[chain];
+  return acc;
+}, {});
+
 module.exports = function buildList() {
   const parsed = version.split(".");
   return {
@@ -51,44 +38,10 @@ module.exports = function buildList() {
     logoURI:
       "https://github.com/Zarclays/zswap-lists/blob/master/logos/token-logos/token/zswap.jpg?raw=true",
     keywords: ["zswap", "default"],
-    tokens: sortTokens([
-      ...ethereum,
-      ...ropsten,
-      ...goerli,
-      ...kovan,
-      ...rinkeby,
-      ...fantom,
-      ...fantomTestnet,
-      ...polygon,
-      ...polygonTestnet,
-      ...xdai,
-      ...bsc,
-      ...bscTestnet,
-      ...moonbase,
-      ...avalanche,
-      ...fuji,
-      ...heco,
-      ...hecoTestnet,
-      ...harmony,
-      ...harmonyTestnet,
-      ...okex,
-      ...okexTestnet,
-      ...arbitrum,
-      ...alfajores,
-      ...celo,
-      ...palm,
-      ...moonriver,
-      ...fuse,
-      ...telos,
-      ...moonbeam,
-      ...optimism,
-      ...kava,
-      ...metis,
-      ...arbitrumNova,
-      ...bobaAvax,
-      ...boba,
-      ...bttc,
-      ...bobaBnb,
-    ]),
+    tokens: sortTokens(
+      Object.entries(tokens).reduce((acc, [chain, tokens]) => {
+        return acc.concat(tokens);
+      }, [])
+    )
   };
 };

@@ -5,7 +5,7 @@
   "main": "dist/zswap-community.tokenlist.json",
   "scripts": {
     "test": "mocha",
-    "build": "rimraf build && if not exist dist mkdir dist && node internal/write.js > dist/zswap-community.tokenlist.json",
+    "build": "rimraf dist && if not exist dist mkdir dist && node internal/write.js > dist/zswap-community.tokenlist.json",
     "prepublishOnly": "npm test && npm run build"
   },
   "files": [
@@ -30,7 +30,7 @@
   "bugs": {
     "url": "https://github.com/Zarclays/zswap-lists/community-token-list/issues"
   },
-  "homepage": "https://github.com/Zarclays/zswap-lists/community-token-list#readme",
+  "homepage": "https://github.com/Zarclays/zswap-lists/tree/master/lists/token-lists/community-token-list#readme",
   "devDependencies": {
     "@ethersproject/address": "^5.0.2",
     "@uniswap/token-lists": "^1.0.0-beta.19",
