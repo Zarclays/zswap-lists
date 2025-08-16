@@ -1,10 +1,10 @@
 {
   "name": "ZSwap Menu",
-  "timestamp": "2025-08-16T15:58:10.520Z",
+  "timestamp": "2025-08-16T16:27:43.319Z",
   "version": {
     "major": 0,
-    "minor": 0,
-    "patch": 1
+    "minor": 1,
+    "patch": 0
   },
   "tags": {},
   "logoURI": "https://github.com/Zarclays/zswap-lists/blob/master/logos/token-logos/token/zswap.jpg?raw=true",
@@ -1252,6 +1252,22 @@
       "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/polygon.jpg",
       "name": "Wrapped Matic",
       "symbol": "WMATIC"
+    },
+    {
+      "address": "0xE7B1D4a5264d5984d1f06F559aA0B712222275CC",
+      "chainId": 12227332,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/zswap/list/master/logos/token-logos/token/cid.jpg",
+      "name": "Love",
+      "symbol": "love"
+    },
+    {
+      "address": "0x043C8d950F59d49B072eAacDACc1Cd1635936981",
+      "chainId": 12227332,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/zswap/list/master/logos/token-logos/token/cid.jpg",
+      "name": "USD Tether",
+      "symbol": "USDT"
     }
   ]
 }
